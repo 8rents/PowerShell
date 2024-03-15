@@ -12,8 +12,12 @@
 ## *Things to do*
 
 - [ ] Get the nerd fonts working
-  - [ ] Try installing them through `choco`
-- [ ] Make sure to download the `8rents/powershell` repo in the sync script FFS
+  - [ ] Try installing them through `choco
+
+## Completed
+
+- [x] Make sure to download the `8rents/powershell` repo in the sync script FFS 
+  *It’s beijng downloaded into `$HOME\Documents\WindowsPowerShell` just as it should be*
 
 ---
 
