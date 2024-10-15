@@ -7,8 +7,8 @@
 # Invoke-Expression (&starship init powershell)
 
 # Use Oh My Posh Prompt
-# oh-my-posh init pwsh | Invoke-Expression
+oh-my-posh init pwsh | Invoke-Expression
 
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+# oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
 
-neofetch
+Set-Alias -Name l -Value eza
