@@ -9,6 +9,9 @@
 # Use Oh My Posh Prompt
 oh-my-posh init pwsh | Invoke-Expression
 
+# Config fast node manager
+fnm env --use-on-cd | Out-String | Invoke-Expression
+
 # Basic Lists (No hidden files)
 function ezal { eza.exe @args '--icons' '-1' '--no-quotes' '-F'}
 Set-Alias -Name l -Value ezal
