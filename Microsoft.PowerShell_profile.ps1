@@ -10,7 +10,7 @@
 oh-my-posh init pwsh | Invoke-Expression
 
 # Config fast node manager
-fnm env --use-on-cd | Out-String | Invoke-Expression
+fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
 
 # Basic Lists (No hidden files)
 function ezal { eza.exe @args '--icons' '-1' '--no-quotes' '-F'}
