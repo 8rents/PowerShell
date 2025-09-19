@@ -12,6 +12,10 @@ oh-my-posh init pwsh | Invoke-Expression
 # Config fast node manager
 fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
 
+#######################
+# ls - list files
+#######################
+
 # Basic Lists (No hidden files)
 function ezal { eza.exe @args '--icons' '-1' '--no-quotes' '-F'}
 Set-Alias -Name l -Value ezal
@@ -23,7 +27,6 @@ function ezalll { eza.exe @args '--icons' '-l' '--git' '--no-quotes' '-h' '-F'}
 Set-Alias -Name lll -Value ezalll
 
 # Basic Lists (With hidden files)
-
 function ezala { eza.exe @args '--icons' '-1' '-A' '--no-quotes' '-F'}
 Set-Alias -Name la -Value ezala
 
