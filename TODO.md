@@ -1,3 +1,7 @@
+[Home](README.md) __|__ **To Do List** __|__ [Documentation](docs/README.md)
+
+---
+
 # PowerShell Todo
 
 > *The neverending list of things to do... in this case with my Windows PowerShell Profile*
