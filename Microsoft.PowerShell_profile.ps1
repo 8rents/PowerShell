@@ -7,7 +7,9 @@
 # Invoke-Expression (&starship init powershell)
 
 # Use Oh My Posh Prompt
-oh-my-posh init pwsh | Invoke-Expression
+# oh-my-posh init pwsh --config 'devious-diamonds' | Invoke-Expression
+# oh-my-posh init pwsh --config 'easy-term' | Invoke-Expression
+oh-my-posh init pwsh --config 'if_tea' | Invoke-Expression
 
 # Config fast node manager
 fnm env --use-on-cd --shell powershell | Out-String | Invoke-Expression
