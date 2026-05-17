@@ -3,6 +3,12 @@
 # previously modified: Wednesday, April 10, 2024 4:57:33 PM
 # last modified: Wednesday, April 9, 2025 1:47:33 PM
 
+# Add scripts folder to the path
+$scripts = "$HOME\Documents\WindowsPowerShell\scripts"
+$Path = [Environment]::GetEnvironmentVariable("Path", "User")
+[Environment]::SetEnvironmentVariable("Path", "$Path;$scripts", "User")
+
+
 # Use the Starship Prompt
 # Invoke-Expression (&starship init powershell)
 

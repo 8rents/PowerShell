@@ -12,13 +12,18 @@
 
 Clone [`8rents/powershell` repo](https://github.com/8rents/powershell) into the folder `$HOME\Documents` and name the cloned folder `WindowsPowerShell`.
 
-The path of the profile that will be read by default after cloning is:
+```powershell
+git clone https://github.com/8rents/powershell $HOME/Documents/WindowsPowerShell
+```
+
+The path of the profile that will be read by your terminal is:
 
 ```powershell
 $HOME\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
 ```
 
-This is for the **`Current User / Current Host`** config.
+> [!note]
+> The file `Microsoft.PowerShell_profile.ps1` is for the **`Current User / Current Host`** config.
 
 ---
 
@@ -30,8 +35,5 @@ To see the full list of PowerShell options and commands, type the following into
 pwsh -?
 ```
 
+**🤍 2026 [Brenton Holiday](https://brenton.holiday)**
 
-
----
-
-**🤍 2024 [Brenton Holiday](https://brenton.holiday)**

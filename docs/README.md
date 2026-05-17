@@ -11,5 +11,5 @@
 ## PowerShell Docs
 
 - [Installing a Nerd Font via Oh My Posh](installing-a-nerd-font/README.md)
-- [Which Profile File is PowerShell Using](which-profile/README.md)
+- [Understanding Profiles in PowerShell](profiles-in-powershell/README.md)
 - [How to Add a Custom Prompt](custom-prompt/README.md)
